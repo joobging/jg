@@ -24,6 +24,33 @@
       padding: 20px;
       margin-bottom: 20px;
     }
+    .parentDiv {
+      width: 300px;
+      height: 300px;
+      position:relative;
+      overflow: hidden;
+    }
+    .parentDiv:hover .mainImage{
+      opacity: 0;
+      transform: translate(100%,100%);
+      transition-delay: 0.5s;
+    }
+    .mainImage{
+      position:relative; 
+      transition-duration: 2s;
+    }
+    .hoverImage{
+      position: relative;
+      right : 300px;
+      top: -300px;
+      opacity: 0;
+      transition-duration: 2s;
+    }
+    .parentDiv:hover .hoverImage{
+      opacity: 1;
+      transform: translate(300px,300px);
+      transition-delay: 0.5s;
+    }
   </style>
 </head>
 <body>
@@ -36,10 +63,11 @@
   
   <div class="card">
     <h2>활동</h2>
-    <div class="parent">
+    <div class="parentDiv">
       <div style="position:absolute">
-        <img class="hoverImage" src="./hoverImage.png"/>
+        <img class="hoverImage" src="./jg.png"/>
       </div>
+      <img class="mainImage" src="./qr.png"/>
     </div>
   </div>
   
