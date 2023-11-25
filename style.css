@@ -2,7 +2,11 @@ h1 {
     text-align: center;
 }
 
-img {
+.logo {
+    text-align: center;
+}
+
+.logo img {
     border-radius: 50px;
 }
 
