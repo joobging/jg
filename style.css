@@ -1,4 +1,8 @@
-text-align: center;
+.logo {
+    text-align: center;
+}
+.logo img {
+    
 
 .card {
     background-color: #50C878;
