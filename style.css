@@ -6,6 +6,9 @@
     margin-right:auto;
   }
 
+img {
+    border-radius: 50px;
+}
 
 .card {
     background-color: #50C878;
