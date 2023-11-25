@@ -1,13 +1,19 @@
 #a {
     width:200px; 
-	left:0; 
-	right:0; 
-	margin-left:auto; 
-	margin-right:auto;
+    left:0; 
+    right:0; 
+    margin-left:auto; 
+    margin-right:auto;
+  }
+.logo {
+    text-align: center;
 }
-.logo img {
+
+.logo img{
     border-radius: 50px;
+    text-align: center;
 }
+
 .card {
     background-color: #50C878;
     border-radius: 5px;
@@ -15,5 +21,3 @@
     padding: 20px;
     margin-bottom: 20px;
 }
-
-  
