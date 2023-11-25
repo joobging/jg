@@ -2,7 +2,8 @@
     text-align: center;
 }
 .logo img {
-    
+    border-radius: 50px;
+}
 
 .card {
     background-color: #50C878;
