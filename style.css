@@ -1,1 +1,20 @@
-
+.logo img {
+      text-align: center;
+      border-radius: 50px;
+}
+.cardd {
+      text-align: center;
+      background-color: #5EACD1;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      margin-bottom: 20px;
+}
+.card {
+      text-align: center;
+      background-color: #50C878;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      padding: 20px;
+      margin-bottom: 20px;
+}
