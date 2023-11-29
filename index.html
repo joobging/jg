@@ -26,63 +26,7 @@
       padding: 20px;
       margin-bottom: 20px;
     }
-    .Slidesbackground {
-      margin: 0;
-      padding: 0;
-    }
-    .slideshow-image {
-      border-radius: 3%;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-    .mySlides {
-      border-radius: 3%;
-      width: 600px;
-      height: 350px;
-      display: flex;
-      justify-items: center;
-      align-items: center;
-      box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
-    }
-    .slideshow-container {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      margin: auto;
-    }
-    .fade {
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-    @Keyframes fade {
-      from {
-        opacity: .4
-      }
-      to {
-        opacity: 1
-      }
-    }
-  
-  </style>
-  <script>
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-
-      for (i = 0; i <slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex > slides.length) {
-        SlideIndex = 1
-      }
-      slides[SlideIndex - 1].style.display = "block";
-
-      setTimeout(showSlides, 2000);
-  </script>
+   </style>
 </head>
 <body>
   <div class="logo">
@@ -90,33 +34,30 @@
   </div>
   <br>
   <h1 style="color:green; text-align:center;">양양줍겠지</h1>
+  
   <i class="fa-brands fa-instagram"></i>
   <a href="https://www.instagram.com/yangyangjubging/" class="fa-brands fa-instagram"></a>
+  
   <div class="cardd">
     <h2>양양고등학교 학생들이 운영하는 양양줍겠지 입니다.</h2>
     <h2>줍깅 설문조사에 참여해주세요!!</h2>
+    <a href="https://forms.gle/dfG7fJZ3if1XmvRWA">설문조사하러가기!</a>
   </div>
+  
   <div class="card">
     <h2 style="color:blue">줍깅이란?</h2>
     <h2>조깅하면서 쓰레기를 줍는다는 뜻입니다.<br>양양고등학교에서 하는 줍깅은 환경보호에 관심있는 학생들이 모여 길거리 쓰레기를 줄이며 환경을 보호하고자 하는 목적을 가지고 있습니다.</h2>
+  </div>
+  
   <div class="cardd">
     <h2>활동</h2>
-     <h2>
-      활동1.양양새활용센터 방문: 술병을 재활용한 화분에다 허브심기 외국 다이아몬드 톱으로 술병 가공하기 체험 외국술병 라벨 떼기 체험 술병 적립하기 체험등을 하였습니다.
+    <h2>
+      활동1.양양새활용센터 방문: 술병을 재활용한 화분에다 허브심기, 다이아몬드 톱으로 외국술병 가공하기 체험, 외국술병 라벨 떼기 체험, 술병 돈으로 적립하기 체험들을 하였습니다.
        <br>
       활동2.줍깅:설악해변에서 정암 해수욕장까지 두시간 동안 줍깅을 해서 해변에 있는 쓰레기들을 치웠습니다.
     </h2> 
-    <span class="slideshow-container">
-      <div class="Slidesbackground">
-        <div class="mySlides fade">
-          <img src="jg.png" class="slideshow-image">
-        </div>
-        <div class="mySlides fade">
-          <img src="wow.png" class="slideshow-image">
-        </div>
-      </div> 
-    </span>
   </div>
+  
 </body>
 </html>
 
