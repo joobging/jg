@@ -38,5 +38,5 @@ body {
 .slides img {
 /*   scroll-snap이 달라붙는 item 기준 start, end, center */
   scroll-snap-align: start;
-  height:300px;
+  height:500px;
 }
