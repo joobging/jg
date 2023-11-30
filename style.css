@@ -18,3 +18,25 @@
       padding: 20px;
       margin-bottom: 20px;
 }
+body {
+  background-color: #262433;
+}
+
+.slides {
+  display:grid;
+  gap:1rem;
+  grid-auto-flow:column;
+  overflow-y:auto;
+  scroll-snap-type(:x mandatory;
+  scrollbar-width:none;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides img {
+/*   scroll-snap이 달라붙는 item 기준 start, end, center */
+  scroll-snap-align: start;
+  height:300px;
+}
