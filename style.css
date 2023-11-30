@@ -33,6 +33,10 @@ body {
   background-color: #262433;
 }
 
+.insta {
+      text-align: center;
+}
+
 .slides {
   display:grid;
   gap:1rem;
