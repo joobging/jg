@@ -4,7 +4,62 @@
   <meta set="utf-8">
   <title>양양줍겠징</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-  <link rel="stylesheet" href="style.css">
+  <style>
+    h1 {
+      text-align: center;
+      font-family: "League Gothic", Impact, sans-serif;
+      color: rgb(56, 188, 65);
+      line-height: 0.9em;
+      /*letter-spacing: 0.02em;*/
+      text-transform: uppercase;
+      text-shadow: 0px 0px 6px ;
+      font-size: 210px;
+    }
+    .logo img {
+          text-align: center;
+          border-radius: 50px;
+    }
+     
+    .cardd {
+          text-align: center;
+          background-color: #5EACD1;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+          padding: 20px;
+          margin-bottom: 20px;
+    }
+    .card {
+          text-align: center;
+          background-color: #50C878;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+          padding: 20px;
+          margin-bottom: 20px;
+    }
+    body {
+      background-color: #262433;
+    }
+    
+    .slides {
+      display:grid;
+      gap:1rem;
+      grid-auto-flow:column;
+      overflow-y:auto;
+      overscroll-behavior-x:contain;
+      scroll-snap-type:x mandatory;
+      scrollbar-width:none;
+    }
+    
+    .slides::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .slides img {
+      scroll-snap-align: start;
+      height:800px;
+    }
+
+  </style>
 </head>
 <body>
   <div class="logo">
