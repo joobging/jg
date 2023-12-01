@@ -8,6 +8,9 @@ h1 {
       text-shadow: 0px 0px 6px ;
       font-size: 210px;
 }
+p {
+      font-size: 30px;
+}
 .logo img {
       text-align: center;
       border-radius: 50px;
