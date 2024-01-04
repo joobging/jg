@@ -11,11 +11,7 @@ const ballRadius = 10;
 
 
 function drawBall() {
-  ctx.beginPath();
-  ctx.arc(x, y, ballRadius, 0, 2 * Math.PI);
-  ctx.fillStyle = "#ff9999";
-  ctx.fill();
-  ctx.closePath();
+  jang = loadImage("jang.png");
 }
 
 function draw() {
